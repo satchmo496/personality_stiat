@@ -40,18 +40,16 @@ debriefingTextBottom : 'This result is not a definitive assessment of your attit
 			},
 			attribute1 : 
 			{
-				name : 'Nervous', //Attribute label
+				name : 'Anxious', //Attribute label
 				title : {
-					media : {word : 'Nervous'}, //Name of the category presented in the task.
+					media : {word : 'Anxious'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 7 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
 					{word: 'Anxious'},
-					{word: 'Nervous'},
-					{word: 'Moody'},
-					{word: 'Neurotic'},
-					{word: 'Unstable'},
+					{word: 'Panicked'},
+					{word: 'Scared'},
 					{word: 'Tense'}
 				], 
 				//Can change color and size of the targets here.
@@ -68,10 +66,8 @@ debriefingTextBottom : 'This result is not a definitive assessment of your attit
 				media : [ //Stimuli
 					{word: 'Relaxed'},
 					{word: 'Calm'},
-					{word: 'Balanced'},
-					{word: 'Resilient'},
-					{word: 'Laid-back'},
-					{word: 'Peaceful'}
+					{word: 'Serene'},
+					{word: 'Tranquil'}
 				], 
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'3em'}
