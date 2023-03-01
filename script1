@@ -19,12 +19,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/sti
 					height : 7 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
-    		    {image : 'black1.jpg'}, 
-    			{image : 'black2.jpg'}, 
-    			{image : 'black3.jpg'}, 
-    			{image : 'black4.jpg'}, 
-    			{image : 'black5.jpg'}, 
-    			{image : 'black6.jpg'}
+    		    {word: 'black1.jpg'}, 
+    			{word: 'black2.jpg'}, 
+    			{word: 'black3.jpg'}, 
+    			{word: 'black4.jpg'}, 
+    			{word: 'black5.jpg'}, 
+    			{word: 'black6.jpg'}
 				],
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'3em'}
